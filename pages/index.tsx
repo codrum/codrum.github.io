@@ -41,7 +41,7 @@ const Home: NextPage = () => {
 
 					<a href='#' className={styles.card}>
 						<h2>About Us &rarr;</h2>
-						<p>We've been active since 2013!</p>
+						<p>We&apos;ve been active since 2013!</p>
 					</a>
 
 					<a href='#' className={styles.card}>
