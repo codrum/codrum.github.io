@@ -4,8 +4,14 @@ const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
-	images: { unoptimized: true },
 	assetPrefix: isProd ? '/codrum.github.io/' : '',
 }
 
-module.exports = nextConfig
+module.exports = {
+	nextConfig,
+	experimental: {
+		images: {
+			unoptimized: true,
+		},
+	},
+}
