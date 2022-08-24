@@ -17,72 +17,41 @@ const Home: NextPage = () => {
 
 			<main className={styles.main}>
 				<h1 className={styles.title}>
-					Welcome to <a href='https://nextjs.org'>Next.js!</a>
+					Stillwater Disc Golf{' '}
+					<a href='https://www.facebook.com/groups/561098823911209'>
+						Club
+					</a>
 				</h1>
 
-				<p className={styles.description}>
-					Get started by NOT editing{' '}
-					<code className={styles.code}>pages/index.tsx</code>
-				</p>
+				<p className={styles.description}>The new home of the SDGC!</p>
 
 				<div className={styles.grid}>
-					<a href='https://nextjs.org/docs' className={styles.card}>
-						<h2>Documentation &rarr;</h2>
+					<a href='#' className={styles.card}>
+						<h2>Members &rarr;</h2>
+						<p>All the current SDGC members and bag tag holders.</p>
+					</a>
+
+					<a href='#' className={styles.card}>
+						<h2>Events &rarr;</h2>
 						<p>
-							Find in-depth information about Next.js features and
-							API.
+							We host twice-weekly minis and have 2-3 tournaments
+							a year.
 						</p>
 					</a>
 
-					<a href='https://nextjs.org/learn' className={styles.card}>
-						<h2>Learn &rarr;</h2>
-						<p>
-							Learn about Next.js in an interactive course with
-							quizzes!
-						</p>
+					<a href='#' className={styles.card}>
+						<h2>About Us &rarr;</h2>
+						<p>We've been active since 2013!</p>
 					</a>
 
-					<a
-						href='https://github.com/vercel/next.js/tree/canary/examples'
-						className={styles.card}
-					>
-						<h2>Examples &rarr;</h2>
-						<p>
-							Discover and deploy boilerplate example Next.js
-							projects.
-						</p>
-					</a>
-
-					<a
-						href='https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-						className={styles.card}
-					>
-						<h2>Deploy &rarr;</h2>
-						<p>
-							Instantly deploy your Next.js site to a public URL
-							with Vercel.
-						</p>
+					<a href='#' className={styles.card}>
+						<h2>Gallery &rarr;</h2>
+						<p>Check out some action shots of our members.</p>
 					</a>
 				</div>
 			</main>
 
-			<footer className={styles.footer}>
-				<a
-					href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					Powered by{' '}
-					<span className={styles.logo}>
-						<Image
-							src='/vercel.svg'
-							alt='Vercel Logo'
-							width={72}
-							height={16}
-						/>
-					</span>
-				</a>
-			</footer>
+			<footer className={styles.footer}></footer>
 		</div>
 	)
 }
