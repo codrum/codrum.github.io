@@ -7,6 +7,6 @@ const nextConfig = {
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-	assetPrefix: isProd ? '/stillwaterdiscgolf.org/' : '',
+	assetPrefix: isProd ? '/codrum.github.io/' : '',
 	nextConfig,
 }
