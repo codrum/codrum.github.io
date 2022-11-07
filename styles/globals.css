@@ -19,10 +19,11 @@ a {
 	html {
 		color-scheme: dark;
 	}
+
 	body {
-		color: white;
-		background-image: url('/images/background.jpg');
+		color: #f7f7f7;
+		/* background-image: url('/images/background.jpg');
 		background-size: cover;
-		background-position: 50%;
+		background-position: 50%; */
 	}
 }
