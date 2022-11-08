@@ -11,6 +11,6 @@ module.exports = {
 	nextConfig,
 	images: {
 		loader: 'imgix',
-		path: 'https://stillwaterdiscgolf.imgix.net',
+		path: 'https://stillwater-disc-golf.imgix.net',
 	},
 }

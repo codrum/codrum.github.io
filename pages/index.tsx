@@ -13,6 +13,12 @@ const Home: NextPage = () => {
 			</Head>
 
 			<main className={styles.main}>
+				<Image
+					src='background.jpg'
+					alt='background'
+					className={styles.background}
+					layout='fill'
+				/>
 				<h1 className={styles.title}>
 					Stillwater Disc Golf{' '}
 					<a href='https://www.facebook.com/groups/561098823911209'>
