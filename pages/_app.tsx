@@ -1,6 +1,10 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Script from 'next/script'
+import '@fontsource/Merriweather/300.css'
+import '@fontsource/Merriweather/400.css'
+import '@fontsource/Merriweather/700.css'
+import '@fontsource/Merriweather/900.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (

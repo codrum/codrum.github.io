@@ -9,8 +9,9 @@ const nextConfig = {
 
 module.exports = {
 	nextConfig,
-	images: {
-		loader: 'imgix',
-		path: 'https://stillwater-disc-golf.imgix.net',
-	},
+	// comment out while in dev
+	// images: {
+	// 	loader: 'imgix',
+	// 	path: 'https://stillwater-disc-golf.imgix.net',
+	// },
 }
