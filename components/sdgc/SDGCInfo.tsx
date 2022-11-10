@@ -34,7 +34,7 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 							gutterBottom
 							sx={{ fontWeight: 700, pb: '16px', color: 'black' }}
 						>
-							Stillwater Disc Golf
+							Stillwater Disc Golf Club
 						</Typography>
 						<Typography
 							variant='body1'

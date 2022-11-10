@@ -53,7 +53,7 @@ export const AboutStillwater = () => {
 					<Typography
 						component='p'
 						gutterBottom
-						sx={{ textAlign: 'justify', color: 'black' }}
+						sx={{ textAlign: 'justify', color: 'black', pb: 8 }}
 					>
 						How many times were you frustrated while looking out for
 						a good collection of programming/algorithm /interview

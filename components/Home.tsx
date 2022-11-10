@@ -9,6 +9,7 @@ import { Content } from './Content'
 import { Footer } from './Footer'
 import { Courses } from './courses/Courses'
 import { SDGCInfo } from './sdgc/SDGCInfo'
+import { Activities } from './sdgc_activities/Activities'
 
 export function Copyright() {
 	return (
@@ -38,6 +39,7 @@ export const Home = () => {
 			</main>
 			<Courses />
 			<SDGCInfo />
+			<Activities />
 			<Footer />
 		</ThemeProvider>
 	)

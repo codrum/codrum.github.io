@@ -9,11 +9,9 @@ export const Hero = () => {
 	return (
 		<Box
 			sx={{
-				backgroundImage: 'url("/images/ogBackground.jpeg")',
+				backgroundImage: 'url("/images/ogBackground2.jpg")',
 				backgroundSize: 'cover',
-				// backgroundPosition: '90%',
 				pt: 16,
-
 				pb: 6,
 				mt: '-150px',
 				height: '100vh',
@@ -26,7 +24,12 @@ export const Hero = () => {
 					align='center'
 					color='white'
 					gutterBottom
-					sx={{ pt: 16 }}
+					sx={{
+						color: 'white',
+						fontFamily: 'Merriweather',
+						fontWeight: 700,
+						pt: 16,
+					}}
 				>
 					Welcome to Stillwater
 				</Typography>
