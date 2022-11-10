@@ -40,7 +40,7 @@ export const Home = () => {
 				<SDGCInfo />
 				<Activities />
 			</main>
-			<Footer />
+			{/* <Footer /> */}
 		</ThemeProvider>
 	)
 }
