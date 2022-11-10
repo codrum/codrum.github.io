@@ -5,18 +5,21 @@ type SDGCInfoProps = {}
 
 export const SDGCInfo: FC<SDGCInfoProps> = () => {
 	return (
-		<Grid container>
+		<Grid
+			container
+			sx={{ flexDirection: { xs: 'column-reverse', md: 'row' } }}
+		>
 			<Grid item xs={12} md={7}>
 				<Box
 					sx={{
 						width: '100%',
-						height: '100vh',
+						height: '100%',
 						backgroundColor: '#f0ede8',
-						pl: 8,
-						pr: 8,
+						pl: { xs: 4, md: 8 },
+						pr: { xs: 4, md: 8 },
 					}}
 				>
-					<Container sx={{ pt: 8 }}>
+					<Container sx={{ pt: 8, textAlign: 'justify' }}>
 						<Typography
 							component='h3'
 							variant='h5'
@@ -32,7 +35,12 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 							component='h3'
 							variant='h4'
 							gutterBottom
-							sx={{ fontWeight: 700, pb: '16px', color: 'black' }}
+							sx={{
+								fontWeight: 700,
+								pb: '16px',
+								color: 'black',
+								textAlign: 'left',
+							}}
 						>
 							Stillwater Disc Golf Club
 						</Typography>
@@ -50,7 +58,7 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 							justo venenatis interdum. Fusce ac aliquet mauris,
 							nec tempus diam. Mauris sed nibh quam.
 						</Typography>
-						<Box sx={{ float: 'right' }}>
+						<Box sx={{ float: { md: 'right' } }}>
 							<Image
 								alt='basket'
 								src='/images/basket.jpeg'
@@ -74,7 +82,7 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 						</Typography>
 						<Typography
 							variant='body1'
-							sx={{ color: 'black' }}
+							sx={{ color: 'black', pb: 8 }}
 							gutterBottom
 						>
 							Ut quam neque, hendrerit et laoreet ac, porttitor ac
@@ -93,7 +101,7 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 				<Box
 					sx={{
 						width: '100%',
-						height: '100vh',
+						height: '100%',
 						backgroundImage:
 							'url("/images/stillwaterdiscgolf.png")',
 						backgroundSize: 'cover',

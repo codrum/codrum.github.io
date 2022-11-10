@@ -25,11 +25,7 @@ export const Courses: FC<CoursesProps> = () => {
 		},
 	]
 	return (
-		<Grid
-			container
-			justifyContent='center'
-			sx={{ textAlign: 'center', mt: 8, pb: 8 }}
-		>
+		<Grid container justifyContent='center' sx={{ pt: 8, pb: 8 }}>
 			{parks.map((park) => {
 				return (
 					<Grid
@@ -54,10 +50,13 @@ export const Courses: FC<CoursesProps> = () => {
 						/>
 						<Typography
 							variant='body1'
+							gutterBottom
+							align='justify'
 							sx={{
 								color: 'black',
 								maxWidth: '300px',
 								margin: '0 auto',
+								pb: 8,
 							}}
 						>
 							{park.description}

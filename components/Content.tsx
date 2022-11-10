@@ -5,7 +5,12 @@ import { AboutStillwater } from './stillwater/AboutStillwater'
 export const Content = () => {
 	return (
 		<Grid container>
-			<Grid item xs={12} md={6}>
+			<Grid
+				item
+				xs={12}
+				md={6}
+				sx={{ display: { xs: 'hidden', md: 'flex' } }}
+			>
 				<Box
 					sx={{
 						width: '100%',

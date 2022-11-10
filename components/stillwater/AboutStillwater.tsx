@@ -9,11 +9,12 @@ export const AboutStillwater = () => {
 				width: '100%',
 				height: '100%',
 				backgroundColor: '#f0ede8',
-				pt: '80px',
-				pl: '24px',
+				pt: 8,
+				pl: { xs: 4, md: 8 },
+				pr: { xs: 4, md: 8 },
 			}}
 		>
-			<Container maxWidth='lg'>
+			<Container>
 				<Typography
 					component='h3'
 					variant='h5'
@@ -35,13 +36,10 @@ export const AboutStillwater = () => {
 				</Typography>
 				<Box
 					sx={{
-						// marginLeft: '-100px',
 						paddingBottom: '32px',
-						md: {
-							marginLeft: '-100px',
+						marginLeft: {
+							md: '-120px',
 						},
-						// marginTop: '-50px',
-						// transform: 'rotate(-10deg)',
 					}}
 				>
 					<Image
@@ -52,7 +50,7 @@ export const AboutStillwater = () => {
 					/>
 				</Box>
 
-				<Box sx={{ maxWidth: '70%', pl: '24px' }}>
+				<Box sx={{}}>
 					<Typography
 						component='p'
 						gutterBottom

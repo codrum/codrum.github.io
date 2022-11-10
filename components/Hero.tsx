@@ -28,6 +28,10 @@ export const Hero = () => {
 						color: 'white',
 						fontFamily: 'Merriweather',
 						fontWeight: 700,
+						fontSize: {
+							xs: '48px',
+							md: '72px',
+						},
 						pt: 16,
 					}}
 				>
