@@ -32,7 +32,13 @@ export const Courses: FC<CoursesProps> = () => {
 		>
 			{parks.map((park) => {
 				return (
-					<Grid item xs={4} sx={{ textAlign: 'center' }}>
+					<Grid
+						item
+						xs={12}
+						md={4}
+						key={park.name}
+						sx={{ textAlign: 'center' }}
+					>
 						<Typography
 							variant='h4'
 							sx={{ color: 'black', fontWeight: 700 }}

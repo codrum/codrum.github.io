@@ -20,7 +20,7 @@ export const Hero = () => {
 			<Container>
 				<Typography
 					component='h1'
-					variant='h1'
+					variant='h2'
 					align='center'
 					color='white'
 					gutterBottom
@@ -33,21 +33,6 @@ export const Hero = () => {
 				>
 					Welcome to Stillwater
 				</Typography>
-				{/* <Typography variant="h5" align="center" color="white" paragraph>
-                With a total of four courses in the city limits, disc golf is picking up traction and
-                 becoming quite the popular passtime for not only our local residents, 
-                 but also among the students at OSU. Founded in yada yada the Stillwater Disc Golf Club has
-                 been cooperating with the City to help upkeep these courses.
-            </Typography> */}
-				{/* <Stack
-                sx={{ pt: 4 }}
-                direction="row"
-                spacing={2}
-                justifyContent="center"
-            >
-                <Button variant="contained">Main call to action</Button>
-                <Button variant="outlined">Secondary action</Button>
-            </Stack> */}
 			</Container>
 		</Box>
 	)

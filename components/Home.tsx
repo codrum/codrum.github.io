@@ -36,10 +36,10 @@ export const Home = () => {
 			<main>
 				<Hero />
 				<Content />
+				<Courses />
+				<SDGCInfo />
+				<Activities />
 			</main>
-			<Courses />
-			<SDGCInfo />
-			<Activities />
 			<Footer />
 		</ThemeProvider>
 	)

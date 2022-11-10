@@ -35,8 +35,11 @@ export const AboutStillwater = () => {
 				</Typography>
 				<Box
 					sx={{
-						marginLeft: '-100px',
+						// marginLeft: '-100px',
 						paddingBottom: '32px',
+						md: {
+							marginLeft: '-100px',
+						},
 						// marginTop: '-50px',
 						// transform: 'rotate(-10deg)',
 					}}
