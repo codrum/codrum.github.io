@@ -25,7 +25,8 @@ export const Navbar = () => {
 			<AppBar
 				position='sticky'
 				elevation={0}
-				sx={{ backgroundColor: 'rgba(43, 88, 101,0.6)' }}
+				color='transparent'
+				// sx={{ backgroundColor: 'rgba(43, 88, 101,0.6)' }}
 			>
 				<Toolbar>
 					<Image
@@ -47,7 +48,7 @@ export const Navbar = () => {
 							justifyContent: 'center',
 						}}
 					>
-						{pages.map((page) => (
+						{/* {pages.map((page) => (
 							<Button
 								key={page}
 								// onClick={handleCloseNavMenu}
@@ -56,7 +57,7 @@ export const Navbar = () => {
 							>
 								{page}
 							</Button>
-						))}
+						))} */}
 					</Box>
 				</Toolbar>
 			</AppBar>

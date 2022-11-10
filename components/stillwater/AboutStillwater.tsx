@@ -7,7 +7,7 @@ export const AboutStillwater = () => {
 		<Box
 			sx={{
 				width: '100%',
-				height: '120vh',
+				height: '100%',
 				backgroundColor: '#f0ede8',
 				pt: '80px',
 				pl: '24px',
@@ -36,15 +36,16 @@ export const AboutStillwater = () => {
 				<Box
 					sx={{
 						marginLeft: '-100px',
+						paddingBottom: '32px',
 						// marginTop: '-50px',
 						// transform: 'rotate(-10deg)',
 					}}
 				>
 					<Image
 						alt='basket'
-						src='/images/basket.jpeg'
-						width={192}
-						height={256}
+						src='/images/holeone.jpeg'
+						width={384}
+						height={274}
 					/>
 				</Box>
 
