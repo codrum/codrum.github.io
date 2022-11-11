@@ -85,7 +85,7 @@ export const AboutStillwater = () => {
 					sx={{
 						textAlign: 'left',
 						color: 'black',
-						pb: 8,
+						// pb: 8,
 						fontFamily: 'Open-sans',
 					}}
 				>

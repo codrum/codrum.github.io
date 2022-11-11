@@ -37,6 +37,7 @@ export const Courses: FC<CoursesProps> = () => {
 					>
 						<Typography
 							variant='h4'
+							gutterBottom
 							sx={{
 								color: 'black',
 								fontWeight: 700,
