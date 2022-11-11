@@ -26,7 +26,7 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 							gutterBottom
 							sx={{
 								color: '#e57601',
-								fontFamily: 'Merriweather',
+								fontFamily: 'Ubuntu',
 							}}
 						>
 							Home to the
@@ -40,13 +40,14 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 								pb: '16px',
 								color: 'black',
 								textAlign: 'left',
+								fontFamily: 'Ubuntu',
 							}}
 						>
 							Stillwater Disc Golf Club
 						</Typography>
 						<Typography
 							variant='body1'
-							sx={{ color: 'black' }}
+							sx={{ color: 'black', fontFamily: 'Open-sans' }}
 							gutterBottom
 						>
 							Ut quam neque, hendrerit et laoreet ac, porttitor ac
@@ -58,7 +59,7 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 							justo venenatis interdum. Fusce ac aliquet mauris,
 							nec tempus diam. Mauris sed nibh quam.
 						</Typography>
-						<Box sx={{ float: { md: 'right' } }}>
+						<Box sx={{ float: { md: 'right' }, pl: 4 }}>
 							<Image
 								alt='basket'
 								src='/images/basket.jpeg'
@@ -68,7 +69,7 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 						</Box>
 						<Typography
 							variant='body1'
-							sx={{ color: 'black' }}
+							sx={{ color: 'black', fontFamily: 'Open-sans' }}
 							gutterBottom
 						>
 							Ut quam neque, hendrerit et laoreet ac, porttitor ac
@@ -82,7 +83,11 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 						</Typography>
 						<Typography
 							variant='body1'
-							sx={{ color: 'black', pb: 8 }}
+							sx={{
+								color: 'black',
+								fontFamily: 'Open-sans',
+								pb: 8,
+							}}
 							gutterBottom
 						>
 							Ut quam neque, hendrerit et laoreet ac, porttitor ac

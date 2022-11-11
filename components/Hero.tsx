@@ -4,6 +4,7 @@ import Stack from '@mui/material/Stack'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
+import Image from 'next/image'
 
 export const Hero = () => {
 	return (
@@ -26,7 +27,7 @@ export const Hero = () => {
 					gutterBottom
 					sx={{
 						color: 'white',
-						fontFamily: 'Merriweather',
+						fontFamily: 'Ubuntu',
 						fontWeight: 700,
 						fontSize: {
 							xs: '48px',
@@ -37,6 +38,14 @@ export const Hero = () => {
 				>
 					Welcome to Stillwater
 				</Typography>
+				{/* <Box sx={{ textAlign: 'center' }}>
+					<Image
+						src='/images/newlogo.png'
+						width={270}
+						height={90}
+						alt='logobanner'
+					/>
+				</Box> */}
 			</Container>
 		</Box>
 	)

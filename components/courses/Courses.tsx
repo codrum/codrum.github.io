@@ -37,7 +37,11 @@ export const Courses: FC<CoursesProps> = () => {
 					>
 						<Typography
 							variant='h4'
-							sx={{ color: 'black', fontWeight: 700 }}
+							sx={{
+								color: 'black',
+								fontWeight: 700,
+								fontFamily: 'Ubuntu',
+							}}
 						>
 							{park.name}
 						</Typography>
@@ -57,6 +61,7 @@ export const Courses: FC<CoursesProps> = () => {
 								maxWidth: '300px',
 								margin: '0 auto',
 								pb: 8,
+								fontFamily: 'Open-sans',
 							}}
 						>
 							{park.description}

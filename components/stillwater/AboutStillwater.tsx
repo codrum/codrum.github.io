@@ -21,7 +21,7 @@ export const AboutStillwater = () => {
 					gutterBottom
 					sx={{
 						color: '#e57601',
-						fontFamily: 'Merriweather',
+						fontFamily: 'Ubuntu',
 					}}
 				>
 					Hello, from
@@ -30,15 +30,22 @@ export const AboutStillwater = () => {
 					component='h3'
 					variant='h4'
 					gutterBottom
-					sx={{ fontWeight: 700, pb: '16px', color: 'black' }}
+					sx={{
+						fontWeight: 700,
+						pb: '16px',
+						color: 'black',
+						fontFamily: 'Ubuntu',
+					}}
 				>
 					Stillwater Disc Golf
 				</Typography>
 				<Box
 					sx={{
-						paddingBottom: '32px',
+						pb: 4,
+						pr: 8,
 						marginLeft: {
 							md: '-120px',
+							float: 'left',
 						},
 					}}
 				>
@@ -50,26 +57,28 @@ export const AboutStillwater = () => {
 					/>
 				</Box>
 
-				<Box sx={{}}>
+				<Box>
 					<Typography
 						component='p'
 						gutterBottom
-						sx={{ textAlign: 'justify', color: 'black', pb: 8 }}
+						sx={{
+							textAlign: 'left',
+							color: 'black',
+							pb: 8,
+							fontFamily: 'Open-sans',
+						}}
 					>
-						How many times were you frustrated while looking out for
-						a good collection of programming/algorithm /interview
-						questions? What did you expect and what did you get?
-						This portal has been created to provide well written,
-						well thought and well explained solutions for selected
-						questions. An IIT Roorkee alumnus and founder of
-						GeeksforGeeks. He loves to solve programming problems in
-						most efficient ways. Apart from GeeksforGeeks, he has
-						worked with DE Shaw and Co. as a software developer and
-						JIIT Noida as an assistant professor. It is a good
-						platform to learn programming. It is an educational
-						website. Prepare for the Recruitment drive of product
-						based companies like Microsoft, Amazon, Adobe etc with a
-						free online placement preparation course.
+						Welcome to Stillwater, home of four great 18-hole disc
+						golf courses! Disc golf has been around in Stillwater
+						since the 1983 when the town's first baskets entered the
+						earth at Boomer Lake. It remained as a low-key passtime
+						for those educated enough to understand the sport for
+						decades. However, with the recent growth in popularity
+						of the sport thank to Covid-19, Stillwater is quickly
+						becoming a disc golfing hotspot across Oklahoma. As the
+						University is seated in the heart of Stillwater, there
+						is no shortage of players spanned across the courses
+						around town.
 					</Typography>
 				</Box>
 			</Container>

@@ -1,7 +1,8 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Script from 'next/script'
-
+import '@fontsource/open-sans'
+import '@fontsource/ubuntu'
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
