@@ -33,7 +33,7 @@ export const Courses: FC<CoursesProps> = () => {
 						xs={12}
 						md={4}
 						key={park.name}
-						sx={{ textAlign: 'center' }}
+						sx={{ textAlign: 'center', pb: { xs: 4 } }}
 					>
 						<Typography
 							variant='h4'
@@ -46,7 +46,7 @@ export const Courses: FC<CoursesProps> = () => {
 						>
 							{park.name}
 						</Typography>
-						<Box sx={{}}>
+						<Box sx={{ pb: 2 }}>
 							<Image
 								src={park.url}
 								width={250}
