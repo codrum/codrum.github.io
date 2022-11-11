@@ -13,7 +13,7 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 				<Box
 					sx={{
 						width: '100%',
-						height: '100%',
+						minHeight: '80vh',
 						backgroundColor: '#f0ede8',
 						pl: { xs: 4, md: 8 },
 						pr: { xs: 4, md: 8 },

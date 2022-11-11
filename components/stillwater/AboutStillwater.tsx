@@ -5,6 +5,7 @@ import Image from 'next/image'
 export const AboutStillwater = () => {
 	return (
 		<Box
+			id='explore'
 			sx={{
 				width: '100%',
 				minHeight: '100vh',
