@@ -100,7 +100,7 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 				<Box
 					sx={{
 						width: '100%',
-						height: '100%',
+						minHeight: '80vh',
 						backgroundImage:
 							'url("/images/stillwaterdiscgolf.png")',
 						backgroundSize: 'cover',

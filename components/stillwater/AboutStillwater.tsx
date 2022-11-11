@@ -18,7 +18,6 @@ export const AboutStillwater = () => {
 				<Typography
 					component='h3'
 					variant='h5'
-					gutterBottom
 					sx={{
 						color: '#e57601',
 						fontFamily: 'Ubuntu',
@@ -29,7 +28,6 @@ export const AboutStillwater = () => {
 				<Typography
 					component='h3'
 					variant='h4'
-					gutterBottom
 					sx={{
 						fontWeight: 700,
 						pb: '16px',
@@ -59,7 +57,6 @@ export const AboutStillwater = () => {
 
 				<Typography
 					component='p'
-					gutterBottom
 					sx={{
 						textAlign: 'left',
 						color: 'black',
@@ -81,32 +78,10 @@ export const AboutStillwater = () => {
 				</Typography>
 				<Typography
 					component='p'
-					gutterBottom
 					sx={{
 						textAlign: 'left',
 						color: 'black',
 						// pb: 8,
-						fontFamily: 'Open-sans',
-					}}
-				>
-					Welcome to Stillwater, home of four great 18-hole disc golf
-					courses! Disc golf has been around in Stillwater since the
-					1983 when the town's first baskets entered the earth at
-					Boomer Lake. It remained as a low-key passtime for those
-					educated enough to understand the sport for decades.
-					However, with the recent growth in popularity of the sport
-					thank to Covid-19, Stillwater is quickly becoming a disc
-					golfing hotspot across Oklahoma. As the University is seated
-					in the heart of Stillwater, there is no shortage of players
-					spanned across the courses around town.
-				</Typography>
-				<Typography
-					component='p'
-					gutterBottom
-					sx={{
-						textAlign: 'left',
-						color: 'black',
-						pb: 8,
 						fontFamily: 'Open-sans',
 					}}
 				>
