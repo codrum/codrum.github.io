@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from '@mui/material'
+import { Box, Button, Container, Typography } from '@mui/material'
 import Link from 'next/link'
 import React, { FC } from 'react'
 
@@ -13,21 +13,24 @@ export const Activities: FC<ActivitiesProps> = () => {
 				pt: 8,
 			}}
 		>
-			<Typography
-				variant='h4'
-				textAlign='center'
-				gutterBottom
-				sx={{ fontWeight: 700, fontFamily: 'Ubuntu', pb: 4 }}
-			>
-				Join the SDGC Facebook group to stay up to date on local events
-			</Typography>
-			<Box sx={{ textAlign: 'center', pb: 8 }}>
-				<Link href='https://www.facebook.com/groups/561098823911209'>
-					<Button variant='outlined' size='large'>
-						Join Now
-					</Button>
-				</Link>
-			</Box>
+			<Container>
+				<Typography
+					variant='h4'
+					textAlign='center'
+					gutterBottom
+					sx={{ fontWeight: 700, fontFamily: 'Ubuntu', pb: 4 }}
+				>
+					Join the SDGC Facebook group to stay up to date on local
+					events
+				</Typography>
+				<Box sx={{ textAlign: 'center', pb: 8 }}>
+					<Link href='https://www.facebook.com/groups/561098823911209'>
+						<Button variant='outlined' size='large'>
+							Join Now
+						</Button>
+					</Link>
+				</Box>
+			</Container>
 		</Box>
 	)
 }

@@ -53,7 +53,13 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 							The Stillwater Disc Golf Club works in collaboration
 							with the City of Stillwater
 						</Typography>
-						<Box sx={{ float: { md: 'right' }, pl: 4, pt: 2 }}>
+						<Box
+							sx={{
+								float: { md: 'right' },
+								pl: { md: 4 },
+								pt: 2,
+							}}
+						>
 							<Image
 								alt='basket'
 								src='/images/basket.jpeg'

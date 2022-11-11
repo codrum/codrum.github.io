@@ -54,23 +54,33 @@ export const Hero = () => {
 							xs: '36px',
 							md: '48px',
 						},
-						pt: 16,
+						pt: 8,
 					}}
 				>
 					Join The Club
 				</Typography>
-				<Box sx={{ textAlign: 'center' }}>
-
+				<Box sx={{ textAlign: 'center', pb: 8 }}>
 					<Link href='https://www.facebook.com/groups/561098823911209'>
-						<Button variant='outlined' size='large' sx={{ color: 'white', borderColor: 'white', mr: 1 }}>
+						<Button
+							variant='outlined'
+							size='large'
+							sx={{ color: 'white', borderColor: 'white', mr: 1 }}
+						>
 							Join Now
 						</Button>
 					</Link>
 					<Link href='#explore'>
-						<Button variant='outlined' size='large' onClick={(event) => {
-							document.getElementById('explore')?.scrollIntoView({ behavior: 'smooth' })
-							event.preventDefault()
-						}} sx={{ color: 'white', borderColor: 'white', ml: 1 }}>
+						<Button
+							variant='outlined'
+							size='large'
+							onClick={(event) => {
+								document
+									.getElementById('explore')
+									?.scrollIntoView({ behavior: 'smooth' })
+								event.preventDefault()
+							}}
+							sx={{ color: 'white', borderColor: 'white', ml: 1 }}
+						>
 							Explore
 						</Button>
 					</Link>
@@ -85,6 +95,6 @@ export const Hero = () => {
 					/>
 				</Box> */}
 			</Container>
-		</Box >
+		</Box>
 	)
 }
