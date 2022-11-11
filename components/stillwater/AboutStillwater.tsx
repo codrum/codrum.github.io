@@ -7,7 +7,7 @@ export const AboutStillwater = () => {
 		<Box
 			sx={{
 				width: '100%',
-				height: '100%',
+				minHeight: '100vh',
 				backgroundColor: '#f0ede8',
 				pt: 8,
 				pl: { xs: 4, md: 8 },
@@ -41,8 +41,8 @@ export const AboutStillwater = () => {
 				</Typography>
 				<Box
 					sx={{
-						pb: 4,
-						pr: 8,
+						pb: 2,
+						pr: 4,
 						marginLeft: {
 							md: '-120px',
 							float: 'left',
@@ -57,30 +57,70 @@ export const AboutStillwater = () => {
 					/>
 				</Box>
 
-				<Box>
-					<Typography
-						component='p'
-						gutterBottom
-						sx={{
-							textAlign: 'left',
-							color: 'black',
-							pb: 8,
-							fontFamily: 'Open-sans',
-						}}
-					>
-						Welcome to Stillwater, home of four great 18-hole disc
-						golf courses! Disc golf has been around in Stillwater
-						since the 1983 when the town's first baskets entered the
-						earth at Boomer Lake. It remained as a low-key passtime
-						for those educated enough to understand the sport for
-						decades. However, with the recent growth in popularity
-						of the sport thank to Covid-19, Stillwater is quickly
-						becoming a disc golfing hotspot across Oklahoma. As the
-						University is seated in the heart of Stillwater, there
-						is no shortage of players spanned across the courses
-						around town.
-					</Typography>
-				</Box>
+				<Typography
+					component='p'
+					gutterBottom
+					sx={{
+						textAlign: 'left',
+						color: 'black',
+						// pb: 8,
+						fontFamily: 'Open-sans',
+						pt: 8,
+					}}
+				>
+					Welcome to Stillwater, home of four great 18-hole disc golf
+					courses! Disc golf has been around in Stillwater since the
+					1983 when the town's first baskets entered the earth at
+					Boomer Lake. It remained as a low-key passtime for those
+					educated enough to understand the sport for decades.
+					However, with the recent growth in popularity of the sport
+					thank to Covid-19, Stillwater is quickly becoming a disc
+					golfing hotspot across Oklahoma. As the University is seated
+					in the heart of Stillwater, there is no shortage of players
+					spanned across the courses around town.
+				</Typography>
+				<Typography
+					component='p'
+					gutterBottom
+					sx={{
+						textAlign: 'left',
+						color: 'black',
+						pb: 8,
+						fontFamily: 'Open-sans',
+					}}
+				>
+					Welcome to Stillwater, home of four great 18-hole disc golf
+					courses! Disc golf has been around in Stillwater since the
+					1983 when the town's first baskets entered the earth at
+					Boomer Lake. It remained as a low-key passtime for those
+					educated enough to understand the sport for decades.
+					However, with the recent growth in popularity of the sport
+					thank to Covid-19, Stillwater is quickly becoming a disc
+					golfing hotspot across Oklahoma. As the University is seated
+					in the heart of Stillwater, there is no shortage of players
+					spanned across the courses around town.
+				</Typography>
+				<Typography
+					component='p'
+					gutterBottom
+					sx={{
+						textAlign: 'left',
+						color: 'black',
+						pb: 8,
+						fontFamily: 'Open-sans',
+					}}
+				>
+					Welcome to Stillwater, home of four great 18-hole disc golf
+					courses! Disc golf has been around in Stillwater since the
+					1983 when the town's first baskets entered the earth at
+					Boomer Lake. It remained as a low-key passtime for those
+					educated enough to understand the sport for decades.
+					However, with the recent growth in popularity of the sport
+					thank to Covid-19, Stillwater is quickly becoming a disc
+					golfing hotspot across Oklahoma. As the University is seated
+					in the heart of Stillwater, there is no shortage of players
+					spanned across the courses around town.
+				</Typography>
 			</Container>
 		</Box>
 	)

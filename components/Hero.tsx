@@ -5,6 +5,7 @@ import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import Image from 'next/image'
+import { Fade } from '@mui/material'
 
 export const Hero = () => {
 	return (
@@ -19,25 +20,27 @@ export const Hero = () => {
 			}}
 		>
 			<Container>
-				<Typography
-					component='h1'
-					variant='h1'
-					align='center'
-					color='white'
-					gutterBottom
-					sx={{
-						color: 'white',
-						fontFamily: 'Ubuntu',
-						fontWeight: 700,
-						fontSize: {
-							xs: '48px',
-							md: '72px',
-						},
-						pt: 16,
-					}}
-				>
-					Welcome to Stillwater
-				</Typography>
+				<Fade in={true} easing='2s'>
+					<Typography
+						component='h1'
+						variant='h1'
+						align='center'
+						color='white'
+						gutterBottom
+						sx={{
+							color: 'white',
+							fontFamily: 'Ubuntu',
+							fontWeight: 700,
+							fontSize: {
+								xs: '48px',
+								md: '72px',
+							},
+							pt: 16,
+						}}
+					>
+						Welcome to Stillwater
+					</Typography>
+				</Fade>
 				{/* <Box sx={{ textAlign: 'center' }}>
 					<Image
 						src='/images/newlogo.png'

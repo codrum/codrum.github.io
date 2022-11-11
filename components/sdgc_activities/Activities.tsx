@@ -17,7 +17,7 @@ export const Activities: FC<ActivitiesProps> = () => {
 				variant='h4'
 				textAlign='center'
 				gutterBottom
-				sx={{ fontWeight: 700, fontFamily: 'Merriweather', pb: 4 }}
+				sx={{ fontWeight: 700, fontFamily: 'Ubuntu', pb: 4 }}
 			>
 				Join the SDGC Facebook group to stay up to date on local events
 			</Typography>

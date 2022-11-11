@@ -1,4 +1,4 @@
-import { Grid, Typography } from '@mui/material'
+import { Box, Grid, Typography } from '@mui/material'
 import Image from 'next/image'
 import React, { FC } from 'react'
 
@@ -45,13 +45,16 @@ export const Courses: FC<CoursesProps> = () => {
 						>
 							{park.name}
 						</Typography>
-						<Image
-							src={park.url}
-							width={300}
-							height={300}
-							alt={park.name}
-							objectFit='cover'
-						/>
+						<Box sx={{}}>
+							<Image
+								src={park.url}
+								width={250}
+								height={250}
+								alt={park.name}
+								objectFit='cover'
+								style={{ borderRadius: 240 }}
+							/>
+						</Box>
 						<Typography
 							variant='body1'
 							gutterBottom
@@ -60,7 +63,7 @@ export const Courses: FC<CoursesProps> = () => {
 								color: 'black',
 								maxWidth: '300px',
 								margin: '0 auto',
-								pb: 8,
+								// pb: 8,
 								fontFamily: 'Open-sans',
 							}}
 						>

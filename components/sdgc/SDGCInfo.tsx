@@ -50,16 +50,10 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 							sx={{ color: 'black', fontFamily: 'Open-sans' }}
 							gutterBottom
 						>
-							Ut quam neque, hendrerit et laoreet ac, porttitor ac
-							sem. Morbi et orci a nisi rutrum volutpat. Proin
-							condimentum sed elit ac pretium. Nulla ac pulvinar
-							dui. Mauris non justo quam. Nam non venenatis
-							mauris. Duis eros justo, consectetur non justo ac,
-							commodo fringilla felis. Morbi porttitor ipsum nec
-							justo venenatis interdum. Fusce ac aliquet mauris,
-							nec tempus diam. Mauris sed nibh quam.
+							The Stillwater Disc Golf Club works in collaboration
+							with the City of Stillwater
 						</Typography>
-						<Box sx={{ float: { md: 'right' }, pl: 4 }}>
+						<Box sx={{ float: { md: 'right' }, pl: 4, pt: 2 }}>
 							<Image
 								alt='basket'
 								src='/images/basket.jpeg'
