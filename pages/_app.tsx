@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app'
 import Script from 'next/script'
 import '@fontsource/open-sans'
 import '@fontsource/ubuntu'
+import Head from 'next/head'
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
@@ -18,15 +19,16 @@ function MyApp({ Component, pageProps }: AppProps) {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-J1ZP3L1Q6R', {
-        page_path: window.location.pathname,
+			page_path: window.location.pathname,
         });
-    `}
+		`}
 			</Script>
+
 			<Script
 				async
 				src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5016075289889293'
 				crossOrigin='anonymous'
-			></Script>
+			/>
 
 			<Component {...pageProps} />
 		</>
