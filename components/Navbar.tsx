@@ -1,10 +1,8 @@
-import * as React from 'react'
+import { Box, Slide, useScrollTrigger } from '@mui/material'
 import AppBar from '@mui/material/AppBar'
-import CameraIcon from '@mui/icons-material/PhotoCamera'
 import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
 import Image from 'next/image'
-import { Box, Button, Slide, useScrollTrigger } from '@mui/material'
+import React, { FC } from 'react'
 
 type hideOnScrollProps = { children: React.ReactElement }
 
@@ -17,7 +15,9 @@ const HideOnScroll = ({ children }: hideOnScrollProps) => {
 	)
 }
 
-export const Navbar = () => {
+type NavbarProps = {}
+
+export const Navbar: FC<NavbarProps> = () => {
 	const pages = ['Courses', 'SDGC', 'Events']
 
 	return (
@@ -26,7 +26,7 @@ export const Navbar = () => {
 				position='sticky'
 				elevation={0}
 				color='transparent'
-				// sx={{ backgroundColor: 'rgba(43, 88, 101,0.6)' }}
+			// sx={{ backgroundColor: 'rgba(43, 88, 101,0.6)' }}
 			>
 				<Toolbar>
 					<Image

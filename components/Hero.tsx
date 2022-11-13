@@ -1,11 +1,7 @@
-import * as React from 'react'
-import Button from '@mui/material/Button'
-import Stack from '@mui/material/Stack'
 import Box from '@mui/material/Box'
-import Typography from '@mui/material/Typography'
+import Button from '@mui/material/Button'
 import Container from '@mui/material/Container'
-import Image from 'next/image'
-import { Fade } from '@mui/material'
+import Typography from '@mui/material/Typography'
 import Link from 'next/link'
 
 export const Hero = () => {
@@ -21,7 +17,6 @@ export const Hero = () => {
 			}}
 		>
 			<Container>
-				{/* 	<Fade in={true} easing='2s'> */}
 				<Typography
 					component='h1'
 					variant='h1'
@@ -85,15 +80,6 @@ export const Hero = () => {
 						</Button>
 					</Link>
 				</Box>
-				{/* </Fade> */}
-				{/* <Box sx={{ textAlign: 'center' }}>
-					<Image
-						src='/images/newlogo.png'
-						width={270}
-						height={90}
-						alt='logobanner'
-					/>
-				</Box> */}
 			</Container>
 		</Box>
 	)

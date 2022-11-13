@@ -34,21 +34,21 @@ const theme = createTheme();
 //         htmlFontSize: { xs: 8, md: 10, lg: 16 }
 //     },
 // });
-theme.typography = {
-    ...theme.typography,
-    [theme.breakpoints.up('xs')]: {
-        htmlFontSize: 8,
-    },
-    [theme.breakpoints.up('md')]: {
-        htmlFontSize: 12,
-    },
-    [theme.breakpoints.up('lg')]: {
-        htmlFontSize: 16,
-    },
-    [theme.breakpoints.up('xl')]: {
-        htmlFontSize: 24,
-    },
-};
+// theme.typography = {
+//     ...theme.typography,
+//     [theme.breakpoints.up('xs')]: {
+//         htmlFontSize: 8,
+//     },
+//     [theme.breakpoints.up('md')]: {
+//         htmlFontSize: 18,
+//     },
+//     [theme.breakpoints.up('lg')]: {
+//         htmlFontSize: 16,
+//     },
+//     [theme.breakpoints.up('xl')]: {
+//         htmlFontSize: 24,
+//     },
+// };
 
 export const Home = () => {
     return (

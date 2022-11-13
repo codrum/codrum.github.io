@@ -1,5 +1,4 @@
-import * as React from 'react'
-import { Box, Container, Grid, Typography } from '@mui/material'
+import { Box, Container, Typography } from '@mui/material'
 import Image from 'next/image'
 
 export const AboutStillwater = () => {
