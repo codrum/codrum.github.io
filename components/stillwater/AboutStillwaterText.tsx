@@ -2,8 +2,8 @@ import { Box, Container, Typography } from '@mui/material'
 import Image from 'next/image'
 import React, { FC } from 'react'
 
-type AboutStillwaterProps = {}
-export const AboutStillwater: FC<AboutStillwaterProps> = () => {
+type AboutStillwaterTextProps = {}
+export const AboutStillwaterText: FC<AboutStillwaterTextProps> = () => {
 	return (
 		<>
 			<Typography

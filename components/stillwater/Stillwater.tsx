@@ -1,7 +1,7 @@
 import { Box, Container, Typography } from '@mui/material'
 import Image from 'next/image'
 import React, { FC } from 'react'
-import { AboutStillwater } from './AboutStillwater'
+import { AboutStillwater } from './AboutStillwaterText'
 
 type StillwaterProps = {}
 export const Stillwater: FC<StillwaterProps> = () => {
@@ -45,7 +45,7 @@ export const Stillwater: FC<StillwaterProps> = () => {
                         pb: 2,
                         pr: 4,
                         marginLeft: {
-                            md: '-120px',
+                            lg: '-120px',
                             float: 'left',
                         },
                     }}
