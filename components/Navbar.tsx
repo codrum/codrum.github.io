@@ -15,9 +15,8 @@ const HideOnScroll = ({ children }: hideOnScrollProps) => {
 	)
 }
 
-type NavbarProps = {}
 
-export const Navbar: FC<NavbarProps> = () => {
+export const Navbar: FC<{}> = () => {
 	return (
 		<HideOnScroll>
 			<AppBar
@@ -45,16 +44,6 @@ export const Navbar: FC<NavbarProps> = () => {
 							justifyContent: 'center',
 						}}
 					>
-						{/* {pages.map((page) => (
-							<Button
-								key={page}
-								// onClick={handleCloseNavMenu}
-								sx={{ my: 2, color: 'white', display: 'block' }}
-								size='large'
-							>
-								{page}
-							</Button>
-						))} */}
 					</Box>
 				</Toolbar>
 			</AppBar>

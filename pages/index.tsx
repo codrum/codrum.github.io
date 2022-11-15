@@ -1,11 +1,11 @@
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 import type { NextPage } from 'next'
 import { JoinToday } from '../components/bottombanner/JoinToday'
-import { Content } from '../components/Content'
 import { Courses } from '../components/courses/Courses'
 import { Hero } from '../components/Hero'
 import { Navbar } from '../components/Navbar'
 import { SDGC } from '../components/sdgc/SDGC'
+import { Stillwater } from '../components/stillwater/Stillwater'
 
 const theme = createTheme()
 const HomePage: NextPage = () => {
@@ -15,7 +15,7 @@ const HomePage: NextPage = () => {
 			<Navbar />
 			<main>
 				<Hero />
-				<Content />
+				<Stillwater />
 				<Courses />
 				<SDGC />
 				<JoinToday />
