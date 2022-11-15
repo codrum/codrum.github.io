@@ -1,7 +1,9 @@
 import { Box, Container, Typography } from '@mui/material'
 import Image from 'next/image'
+import React, { FC } from 'react'
 
-export const AboutStillwater = () => {
+type AboutStillwaterProps = {}
+export const AboutStillwater: FC<AboutStillwaterProps> = () => {
 	return (
 		<Box
 			id='explore'
@@ -76,7 +78,7 @@ export const AboutStillwater = () => {
 					in the heart of Stillwater, there is no shortage of players
 					spanned across the courses around town.
 				</Typography>
-				<Typography
+				{/* <Typography
 					component='p'
 					sx={{
 						textAlign: 'left',
@@ -95,7 +97,7 @@ export const AboutStillwater = () => {
 					golfing hotspot across Oklahoma. As the University is seated
 					in the heart of Stillwater, there is no shortage of players
 					spanned across the courses around town.
-				</Typography>
+				</Typography> */}
 			</Container>
 		</Box>
 	)

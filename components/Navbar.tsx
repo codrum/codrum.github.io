@@ -5,7 +5,6 @@ import Image from 'next/image'
 import React, { FC } from 'react'
 
 type hideOnScrollProps = { children: React.ReactElement }
-
 const HideOnScroll = ({ children }: hideOnScrollProps) => {
 	const trigger = useScrollTrigger()
 	return (
@@ -16,18 +15,10 @@ const HideOnScroll = ({ children }: hideOnScrollProps) => {
 }
 
 type NavbarProps = {}
-
 export const Navbar: FC<NavbarProps> = () => {
-	const pages = ['Courses', 'SDGC', 'Events']
-
 	return (
 		<HideOnScroll>
-			<AppBar
-				position='sticky'
-				elevation={0}
-				color='transparent'
-			// sx={{ backgroundColor: 'rgba(43, 88, 101,0.6)' }}
-			>
+			<AppBar position='sticky' elevation={0} color='transparent'>
 				<Toolbar>
 					<Image
 						src='/images/newlogo.png'
@@ -47,18 +38,7 @@ export const Navbar: FC<NavbarProps> = () => {
 							display: { xs: 'none', md: 'flex' },
 							justifyContent: 'center',
 						}}
-					>
-						{/* {pages.map((page) => (
-							<Button
-								key={page}
-								// onClick={handleCloseNavMenu}
-								sx={{ my: 2, color: 'white', display: 'block' }}
-								size='large'
-							>
-								{page}
-							</Button>
-						))} */}
-					</Box>
+					></Box>
 				</Toolbar>
 			</AppBar>
 		</HideOnScroll>

@@ -1,8 +1,10 @@
 import { Box } from '@mui/material'
 import Grid from '@mui/material/Grid'
+import React, { FC } from 'react'
 import { AboutStillwater } from './stillwater/AboutStillwater'
 
-export const Content = () => {
+type ContentProps = {}
+export const Content: FC<ContentProps> = () => {
 	return (
 		<Grid container>
 			<Grid
