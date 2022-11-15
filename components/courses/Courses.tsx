@@ -1,9 +1,11 @@
 import { Box, Grid, Typography } from '@mui/material'
 import Image from 'next/image'
 import React, { FC } from 'react'
+import { parks } from '../../data/parks'
 
 type CoursesProps = {}
 export const Courses: FC<CoursesProps> = () => {
+<<<<<<< HEAD
 	const parks = [
 		{
 			name: 'Hoyt Grove',
@@ -23,6 +25,8 @@ export const Courses: FC<CoursesProps> = () => {
 				'Lake McMurtry Park hosts two 18 hole courses on its property. There is a $6 fee per vehicle to enter the park, but its well maintained fairways and challenging tee shots will challenge even the best local pros.',
 		},
 	]
+=======
+>>>>>>> b84eb3fdb90682338e2e0a639585a26c7148c902
 	return (
 		<Grid container justifyContent='center' sx={{ pt: 8, pb: 8 }}>
 			{parks.map((park) => {

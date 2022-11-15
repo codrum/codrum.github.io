@@ -1,8 +1,8 @@
 import { Box, Grid, Typography, Container } from '@mui/material'
 import Image from 'next/image'
 import React, { FC } from 'react'
-type SDGCInfoProps = {}
 
+type SDGCInfoProps = {}
 export const SDGCInfo: FC<SDGCInfoProps> = () => {
 	return (
 		<Grid
@@ -45,14 +45,6 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 						>
 							Stillwater Disc Golf Club
 						</Typography>
-						<Typography
-							variant='body1'
-							sx={{ color: 'black', fontFamily: 'Open-sans' }}
-							gutterBottom
-						>
-							The Stillwater Disc Golf Club works in collaboration
-							with the City of Stillwater
-						</Typography>
 						<Box
 							sx={{
 								float: { md: 'right' },
@@ -69,17 +61,37 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 						</Box>
 						<Typography
 							variant='body1'
-							sx={{ color: 'black', fontFamily: 'Open-sans' }}
-							gutterBottom
+							sx={{
+								color: 'black',
+								fontFamily: 'Open-sans',
+								pb: 2,
+							}}
 						>
-							Ut quam neque, hendrerit et laoreet ac, porttitor ac
-							sem. Morbi et orci a nisi rutrum volutpat. Proin
-							condimentum sed elit ac pretium. Nulla ac pulvinar
-							dui. Mauris non justo quam. Nam non venenatis
-							mauris. Duis eros justo, consectetur non justo ac,
-							commodo fringilla felis. Morbi porttitor ipsum nec
-							justo venenatis interdum. Fusce ac aliquet mauris,
-							nec tempus diam. Mauris sed nibh quam.
+							The Stillwater Disc Golf Club is a group of avid
+							disc golfers in the mid Oklahoma region. We host 1-2
+							mini tournaments a week, and 2-3 PDGA approved
+							C-tier and B-tier tournaments. The SDGC has been
+							around almost as long as disc golf has in
+							Stillwater, and works in hand with the City to help
+							upkeep and maintain our beautiful courses.
+						</Typography>
+						<Typography
+							variant='body1'
+							sx={{
+								color: 'black',
+								fontFamily: 'Open-sans',
+								pb: 2,
+							}}
+						>
+							Up until now, the SDGC's online presence has been
+							contained to a Facebook Group. We post information
+							about local events and tournaments as well as a
+							place to discuss local happenings in the disc golf
+							scene. Most commonly, you'll find lost and found
+							discs, discussion about tournmanets, and of course,
+							the occasional photo of a community member posing
+							next to a basket with a "1" after accomplishing an
+							ace.
 						</Typography>
 						<Typography
 							variant='body1'
@@ -90,14 +102,9 @@ export const SDGCInfo: FC<SDGCInfoProps> = () => {
 							}}
 							gutterBottom
 						>
-							Ut quam neque, hendrerit et laoreet ac, porttitor ac
-							sem. Morbi et orci a nisi rutrum volutpat. Proin
-							condimentum sed elit ac pretium. Nulla ac pulvinar
-							dui. Mauris non justo quam. Nam non venenatis
-							mauris. Duis eros justo, consectetur non justo ac,
-							commodo fringilla felis. Morbi porttitor ipsum nec
-							justo venenatis interdum. Fusce ac aliquet mauris,
-							nec tempus diam. Mauris sed nibh quam.
+							If you're new to the Stillwater area, or are just
+							looking for cool people to play disc golf with, join
+							the SDGC today!
 						</Typography>
 					</Container>
 				</Box>

@@ -2,9 +2,9 @@ import { Box, Button, Container, Typography } from '@mui/material'
 import Link from 'next/link'
 import React, { FC } from 'react'
 
-type ActivitiesProps = {}
+type JoinTodayProps = {}
 
-export const Activities: FC<ActivitiesProps> = () => {
+export const JoinToday: FC<JoinTodayProps> = () => {
 	return (
 		<Box
 			sx={{

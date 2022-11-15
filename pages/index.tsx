@@ -1,12 +1,26 @@
+import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import { Home } from '../components/Home'
-import styles from '../styles/Home.module.css'
+import { Content } from '../components/Content'
+import { Courses } from '../components/courses/Courses'
+import { Hero } from '../components/Hero'
+import { Navbar } from '../components/Navbar'
+import { SDGCInfo } from '../components/sdgc/SDGCInfo'
+import { JoinToday } from '../components/bottombanner/JoinToday'
 
+const theme = createTheme()
 const HomePage: NextPage = () => {
 	return (
-		<Home />
+		<ThemeProvider theme={theme}>
+			<CssBaseline />
+			<Navbar />
+			<main>
+				<Hero />
+				<Content />
+				<Courses />
+				<SDGCInfo />
+				<JoinToday />
+			</main>
+		</ThemeProvider>
 	)
 }
 

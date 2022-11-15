@@ -3,8 +3,10 @@ import Button from '@mui/material/Button'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import Link from 'next/link'
+import React, { FC } from 'react'
 
-export const Hero = () => {
+type HeroProps = {}
+export const Hero: FC<HeroProps> = () => {
 	return (
 		<Box
 			sx={{
