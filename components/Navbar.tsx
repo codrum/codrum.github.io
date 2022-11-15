@@ -26,7 +26,6 @@ export const Navbar: FC<NavbarProps> = () => {
 				position='sticky'
 				elevation={0}
 				color='transparent'
-			// sx={{ backgroundColor: 'rgba(43, 88, 101,0.6)' }}
 			>
 				<Toolbar>
 					<Image
