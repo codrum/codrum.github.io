@@ -8,7 +8,6 @@ export const JoinToday: FC<JoinTodayProps> = () => {
 	return (
 		<Box
 			sx={{
-				// backgroundColor: '#f0ede8',
 				height: '100%',
 				pt: 8,
 			}}
@@ -21,7 +20,7 @@ export const JoinToday: FC<JoinTodayProps> = () => {
 					sx={{ fontWeight: 700, fontFamily: 'Ubuntu', pb: 4 }}
 				>
 					Join the SDGC Facebook group to stay up to date on local
-					events
+					events!
 				</Typography>
 				<Box sx={{ textAlign: 'center', pb: 8 }}>
 					<Link href='https://www.facebook.com/groups/561098823911209'>

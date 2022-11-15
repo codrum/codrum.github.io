@@ -2,6 +2,7 @@ import { Box } from '@mui/material'
 import Grid from '@mui/material/Grid'
 import React, { FC } from 'react'
 import { AboutStillwater } from './stillwater/AboutStillwater'
+import { Stillwater } from './stillwater/Stillwater'
 
 type ContentProps = {}
 export const Content: FC<ContentProps> = () => {
@@ -24,7 +25,7 @@ export const Content: FC<ContentProps> = () => {
 				/>
 			</Grid>
 			<Grid item xs={12} md={6}>
-				<AboutStillwater />
+				<Stillwater />
 			</Grid>
 		</Grid>
 	)
