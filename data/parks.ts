@@ -1,4 +1,5 @@
-import { Park } from '../types/park'
+import { Park } from "../types/Park";
+
 
 export const parks: Park[] = [
 	{
