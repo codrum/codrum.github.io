@@ -15,9 +15,8 @@ const HideOnScroll = ({ children }: hideOnScrollProps) => {
 	)
 }
 
-type NavbarProps = {}
 
-export const Navbar: FC<NavbarProps> = () => {
+export const Navbar: FC<{}> = () => {
 	return (
 		<HideOnScroll>
 			<AppBar
@@ -27,9 +26,9 @@ export const Navbar: FC<NavbarProps> = () => {
 			>
 				<Toolbar>
 					<Image
-						src='/images/newlogo.png'
-						height={45}
-						width={135}
+						src='/images/newlogo.svg'
+						height={90 / 1.5}
+						width={270 / 1.5}
 						alt='logo'
 						style={{
 							marginTop: '-16px',
@@ -45,16 +44,6 @@ export const Navbar: FC<NavbarProps> = () => {
 							justifyContent: 'center',
 						}}
 					>
-						{/* {pages.map((page) => (
-							<Button
-								key={page}
-								// onClick={handleCloseNavMenu}
-								sx={{ my: 2, color: 'white', display: 'block' }}
-								size='large'
-							>
-								{page}
-							</Button>
-						))} */}
 					</Box>
 				</Toolbar>
 			</AppBar>

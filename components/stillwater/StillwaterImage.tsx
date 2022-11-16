@@ -1,7 +1,7 @@
 import { Box, Grid } from '@mui/material'
-import React from 'react'
+import React, { FC } from 'react'
 
-export const StillwaterImage = () => {
+export const StillwaterImage: FC<{}> = () => {
     return (<Grid
         item
         xs={12}
