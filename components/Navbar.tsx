@@ -27,8 +27,8 @@ export const Navbar: FC<{}> = () => {
 				<Toolbar>
 					<Image
 						src='/images/newlogo.svg'
-						height={90}
-						width={270}
+						height={90 / 1.5}
+						width={270 / 1.5}
 						alt='logo'
 						style={{
 							marginTop: '-16px',
