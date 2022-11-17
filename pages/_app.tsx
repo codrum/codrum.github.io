@@ -7,9 +7,6 @@ import Head from 'next/head'
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
-		<Head>
-			<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-		</Head>
 			<Script
 				id='get-ga'
 				strategy='lazyOnload'
