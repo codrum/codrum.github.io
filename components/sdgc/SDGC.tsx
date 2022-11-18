@@ -1,6 +1,5 @@
-import { Box, Grid, Typography, Container } from '@mui/material'
-import Image from 'next/image'
-import React, { FC } from 'react'
+import { Box, Grid } from '@mui/material'
+import { FC } from 'react'
 import { SDGCInfo } from './SDGCInfo'
 
 type SDGCProps = {}
