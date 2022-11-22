@@ -11,7 +11,6 @@ module.exports = {
 	nextConfig,
 	// comment out while in dev
 	images: {
-		loader: 'imgix',
-		path: 'https://stillwater-disc-golf.imgix.net',
+		unoptimized: true
 	},
 }
